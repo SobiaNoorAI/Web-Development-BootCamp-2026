@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.top-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    line-height: 100px;
+    margin: 0 auto;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #060c00;
+    margin: 0 auto;
+}
+#menu{
+    margin-left: 15%;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+#menu ul li{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #060c00;
+    color: #f8f5f5;
+    float: left;
+    border-radius: 35px;
+    transition: 0.3s;
+
+}
+
+#menu ul li:hover{
+    background-color: #f2f2f2;
+    color: #060c00;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px #060c00;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: inherit;
+}
+
+/* ===========Main Section======= */
+/* ===========PROFILE SECTION======= */
+.profile-img{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hello{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFDE59;
+    text-align: center;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.designation{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.design-description{
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+/* ===========BUTTONS======= */
+.buttons{
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.btn-primary{
+    background-color: #FFDE59;
+    color: #fff;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #e0c74a;
+    color: #fff;
+}
+.btn-outline{
+    background-color: transparent;
+    color: #FFDE596;
+    border: 2px solid #FFDE59;
+}
+.btn-outline:hover{
+    background-color: #FFDE59;
+    color: #fff;
+    border: 2px solid #FFDE59;
+}
+
+/* ===========FOOTER======= */
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align : center;
+    line-height: 60px;
+    color: #333;
+    float: left;
+}
+.footer span{
+    font-weight: 700;
+    color: #FFDE59;
+}

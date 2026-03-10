@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .row-1{
+            height:550px;
+            width:100%;
+            background-color: #FFDE59;
+           
+        }
+        .left-img{
+            height: 400px;
+            width:400px;
+            background-image: url('images/profile.png');
+            background-size:100% 100%;
+            float: left;
+            margin-right:80px ;
+
+        }
+        .right-text{
+            height:500px;
+            width: 500px;
+            float: left;
+            text-align: center;
+            margin-left: 50px;
+            font-size: 20px;
+            line-height: 20px;
+            margin-left:30px;
+
+        }
+        .about-stats{
+            height: 250px;
+            width: 100%;
+            background-color: #F2F2F2;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .stats-number{
+            font-size: 40px;
+            font-weight: bold;
+            color: #333;
+        }
+        .stats-label{
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+        <h1 class="top-heading">Welcome to My Portfolio</h1>
+        </header>
+        <div class="navbar">
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>   
+        <div class="main">
+            <h2 class="name">Sobia Noor</h2>
+            <div class="row-1">
+                <div class="left-img"></div>
+                <div class="right-text">
+                    <h2>Introduction</h2>
+                    <h3>Building the future, <br>one model at a time.</h3>
+                    <p>
+                        I'm a Software Engineer and Data Scientist based in Multan, Pakistan, with a Bachelor's degree in Information Technology from the Institute of Southern Punjab. My journey spans from full-stack web development to machine learning and data analytics.
+                    </p>
+                    
+                    <p>
+                        Through my Data Scientist fellowship at Data Seekho, I honed my skills in Python, predictive modeling, and communicating data-driven insights to diverse audiences.
+                    </p>
+                    <p>
+                        Beyond code, I volunteer as a trainer at iCodeGuru, teaching IELTS and mentoring underprivileged students — because I believe technology and education together can unlock opportunities for everyone.
+                    </p>
+                </div><!--End Right Text-->
+            </div>  <!--End Row1-->
+            <div class='about-stats'>
+                <div>
+                    <div class="stats-number">10+</div>
+                    <div class="stats-label">Years of Experience</div>
+                </div>
+                <div>
+                    <div class="stats-number">10+</div>
+                    <div class="stats-label">Projects Completed</div>
+                </div>
+                <div>
+                    <div class="stats-number">10+</div>
+                    <div class="stats-label">Certifications</div>
+                </div>
+
+            </div>  
+        </div><!--End Main-->
+    </div><!--Container>
+    <!------FOOTER-->
+    <footer class="footer">
+        <p>&copy; 2026 Sobia Noor. All rights reserved.</p> 
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+        height: 500px;
+        width:400px;
+        margin-left:500px;
+        margin-top:80px;
+        padding: 30px;
+        box-sizing:border-box;
+        background-color:rgba(0, 0,0, 0.5);
+        border-radius: 0px
+    }    
+    .form-title{
+        text-align:center;
+        font-family: calibri;
+        background-color:orange;
+        color: white;
+    }
+    .text-box{
+        width: 320px;
+        margin-top: 10px;
+        padding: 7px;
+        font-size:12px;
+    }
+    .text-box:focus{
+        width: 490px;
+        border-radius: 10px;
+        transition: 0.9s;
+    }
+    .login-btn{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 15px;
+        padding: 10px;
+        background-color: orange;
+        color: white;
+        border:0px;
+    }
+    .login-btn:hover{
+        background-color:#c0c0c0;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body style="background-image:url('images/bike.jpg'); background-size:cover;">
+        <div class="box">
+        <h1 class="form-title"><span style="color:red;">L</span>ogin <span style="color:red;">P</span>lease</h1>
+        <form>
+            <input type="text" class="text-box" placeholder="Enter Username" />
+            <input type="password" class="text-box" placeholder="Enter Password" />
+            <input type="email" class="text-box" placeholder="abc@email.com" />
+            <input type="number" class="text-box" placeholder="Enter NIC Number" />
+            <input type="text" class="text-box" placeholder="City" />
+            <input type="text" class="text-box" placeholder="Region" />
+            
+            <input type="submit" class="login-btn" value="Login" />
+        </form>
+    </div>
+</body>
+</html>
