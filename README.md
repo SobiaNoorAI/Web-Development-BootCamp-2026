@@ -11,9 +11,8 @@ Our mission is to take aspiring developers from the fundamentals of the web to b
 | Phase | Topics Covered | Status |
 | :--- | :--- | :--- |
 | **Week 1-2** | **HTML5 & CSS3 Foundations** (Semantic tags, Flexbox, Grid, Responsive Design) | ✅ Completed |
-| **Week 3-4** | **JavaScript Interactivity** (DOM Manipulation, ES6+, Logic) | ⏳ In Progress |
-| **Week 5-6** | **Backend Development** (PHP & Database Management) | 📅 Upcoming |
-| **Week 7-8** | **CMS Mastery** (WordPress Development & Customization) | 📅 Upcoming |
+| **Week 3-4** | **JavaScript & Backend Development** (DOM Manipulation, ES6+, Logic), PHP & Database Management | ⏳ In Progress |
+| **Week 5-6** | **CMS Mastery** (WordPress Development & Customization) | 📅 Upcoming |
 
 ---
 
